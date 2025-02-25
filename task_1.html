@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Event Registration Form</h1>
+    <fieldset>
+        <legend> Personal Information</legend>
+
+        <label for="name">Full Name:</label>
+        <input type="text" name="Full Name" id="name" placeholder="Enter your name"> <br>
+        <label for="email">Email Address:</label>
+        <input type="email" name="email addres" id="email" placeholder="Enter your email" size="30"> <br>
+        <label for="number">Phone Number: </label>
+        <input type="tel" name="phone number" id="number" size="20" placeholder="Enter your phone number!" size="30">
+    </fieldset>
+    <fieldset>
+        <legend> Event Details</legend>
+
+        <label for="event name">Event Name:</label>
+        <input type="text" name="name" id="event name" placeholder="Enter your name!"> <br>
+        <label for="date">Event Date:</label>
+        <input type="date" name="event date" id="date"> <br>
+        <label for="location">Event Location: </label>
+        <input type="url" name="event location" id="location" placeholder="Enter your phone location!" size="30">
+    </fieldset>
+    </fieldset>
+    <fieldset>
+        <legend> Ticket Selection </legend>
+
+        <label for="event name">Choose Ticket Type:</label>
+        <br>
+        <input type="radio" name="standart ticket" id="standart">
+        <label for="standart"> Standart</label> <br>
+        <input type="radio" name=" VIP ticket" id="VIP">
+        <label for="VIP"> VIP</label> <br>
+        <label for="quantity">Quantity: </label>
+        <input type="number" name="number" id="quantity" min="3" max="20">
+    </fieldset>
+
+
+    <fieldset>
+        <legend> Dietary Preferences </legend>
+
+        <label for="dietary">Do you have any dietary preferences?</label>
+        <br>
+        <input type="checkbox" name="name vegetarian" id="vegetarian">
+        <label for="vegetarian"> Vegetarian</label> <br>
+        <input type="checkbox" name="name vegan" id="vegan>
+       <label for=" vegan"> Vegan </label> <br>
+        <input type="checkbox" name="name gluten free" id="gluten free">
+        <label for="gluten free"> Gluten-Free </label> <br>
+    </fieldset>
+    <label for="comments">Additional Comments:</label> <br>
+    <textarea name="text" id="comments"></textarea> <br>
+    <input type="checkbox" name="terms and conditions" id="conditions">
+    <label for="conditions">I agree to the terms and conditions</label> <br>
+    <button type="submit">Register</button>
+</body>
+
+</html>
